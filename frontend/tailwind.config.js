@@ -14,8 +14,10 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
-        main: '#B45309',                
-        border: '#DBDBDB',
+        main: "#B45309",                
+        border: "#DBDBDB",
+        font: "#1c1934",
+        hoverFont: "#f3f4f6",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
