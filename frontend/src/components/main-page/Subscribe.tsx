@@ -8,10 +8,10 @@ function Subscribe() {
       <Button
         className="bg-transparent w-[calc(50%-10px)] h-full lg:h-fit lg:w-fit text-gray-500 bg-hoverFont hover:bg-hoverFont lg:bg-transparent hover:text-gray-600 lg:hover:bg-transparent px-2 py-1 lg:p-1"
       >
-        تسجيل الدخول
+        <a href="/login" className='w-full h-full'>تسجيل الدخول</a>
       </Button>
-      <Button 
-        variant="ghost" 
+      <Button
+        variant="ghost"
         className="group  w-[calc(50%-10px)] h-full lg:h-fit lg:w-fit relative bg-main/70 hover:bg-main hover:text-white text-white overflow-hidden lg:rounded-xl px-2 py-1 lg:py-[6px] text-sm"
         style={{ marginRight: '0' }}
       >
