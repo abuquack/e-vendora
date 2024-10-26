@@ -1,4 +1,4 @@
-import Landing from '@/components/main-page/Landing'
+import Landing from '@/components/LandingPage/Landing'
 
 function HomeScreen() {
   return (

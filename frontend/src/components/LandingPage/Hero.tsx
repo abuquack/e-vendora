@@ -1,5 +1,4 @@
 import { MoveLeft } from 'lucide-react'
-import React from 'react'
 
 function Hero() {
   return (

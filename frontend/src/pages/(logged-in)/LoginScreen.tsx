@@ -19,8 +19,8 @@ function LoginScreen() {
             <Lock size={20} strokeWidth={1.25} color='#F59E0B' />
           </div>
         </div>
-        <a href="#" className='text-blue-400 underline'>هل نسيت كلمة المرور؟</a>
-        <Button className='bg-main rounded-full mt-5'>تسجيل الدخول</Button>
+        <a href="#" className='text-blue-400 underline hover:text-blue-500'>هل نسيت كلمة المرور؟</a>
+        <Button className='bg-main rounded-full mt-5 hover:bg-hover'>تسجيل الدخول</Button>
         <span className="flex items-center px-2">
           <span className="h-px flex-1 bg-font"></span>
           <span className="shrink-0 px-6">أو</span>
