@@ -19,6 +19,7 @@ export default {
         border: "#DBDBDB",
         font: "#1c1934",
         hoverFont: "#f3f4f6",
+        bgGray: "#f1f1f9",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
