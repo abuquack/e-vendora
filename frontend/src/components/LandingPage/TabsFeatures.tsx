@@ -1,4 +1,3 @@
-
 function TabsFeatures() {
   const tabsFeatures = [
     {
