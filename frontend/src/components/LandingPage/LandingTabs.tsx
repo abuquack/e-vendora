@@ -1,7 +1,13 @@
 import { Store } from "lucide-react"
+import { ReactNode } from "react"
 
 function LandingTabs() {
-  const pages = [
+  type PageType = {
+    name: string;
+    icon: ReactNode;
+  };
+
+  const pages: PageType[] = [
     {
       name: 'المتاجر',
       icon: <Store strokeWidth={1} />
