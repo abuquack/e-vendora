@@ -1,5 +1,9 @@
 function TabsFeatures() {
-  const tabsFeatures = [
+  type tabsFeaturesType = {
+    feat: string;
+  };
+
+  const tabsFeatures: tabsFeaturesType[] = [
     {
       feat: 'رائع وجميل',
     },
@@ -37,7 +41,6 @@ function TabsFeatures() {
             tabsFeatures.map((tab, id) => {
               return (
                 <li key={id} className="bg-bgGray rounded-lg py-1 px-2 text-font shadow-sm">{tab.feat}</li>
-                
               )
             })
           }
