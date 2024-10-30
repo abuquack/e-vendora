@@ -1,9 +1,9 @@
 import { Route, Routes, useLocation } from 'react-router-dom'
 import './App.css'
-import HomeScreen from './pages/HomeScreen'
-import Header from './layouts/Header/Header'
-import LoginScreen from './pages/(logged-in)/LoginScreen'
-import RegisterScreen from './pages/(logged-in)/RegisterScreen'
+import HomeScreen from './pages/homeScreen'
+import Header from './layouts/header/header'
+import LoginScreen from './pages/(logged-in)/loginScreen'
+import RegisterScreen from './pages/(logged-in)/registerScreen'
 
 function App() {
   const location = useLocation();

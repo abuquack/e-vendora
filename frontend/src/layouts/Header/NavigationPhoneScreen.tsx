@@ -1,4 +1,4 @@
-import Subscribe from "./Subscribe"
+import Subscribe from "./subscribe"
 
 type NavigationPhoneScreenProps = {
   sideMenu: boolean,
@@ -9,9 +9,9 @@ function NavigationPhoneScreen({ sideMenu }: NavigationPhoneScreenProps) {
     <div className="flex h-screen flex-col justify-between border rounded-lg bg-white shadow mx-3 relative z-50">
       <div className="px-4 py-6">
         <span className="flex items-center justify-center gap-1 font-medium text-sm h-fit py-3 mb-2 place-content-center rounded-lg bg-hoverFont text-gray-600">
-        مرحباً بكم في  <span className='text-main font-bold text-base'>  فيندورا  </span>
+          مرحباً بكم في  <span className='text-main font-bold text-base'>  فيندورا  </span>
         </span>
-        
+
         <Subscribe />
 
         <ul className="mt-6 space-y-1">

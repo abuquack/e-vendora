@@ -1,8 +1,8 @@
 import { Menu } from 'lucide-react'
 import { useState } from 'react'
-import { Navigation } from './Navigation'
-import Subscribe from './Subscribe'
-import NavigationPhoneScreen from './NavigationPhoneScreen';
+import { Navigation } from './navigation'
+import Subscribe from './subscribe'
+import NavigationPhoneScreen from './navigationPhoneScreen';
 
 function Header() {
   const [showSideMenu, setShowSideMenu] = useState<boolean>(false);

@@ -1,6 +1,6 @@
-import Hero from './Hero'
-import LandingTabs from './LandingTabs'
-import TabsFeatures from './TabsFeatures'
+import Hero from './hero'
+import LandingTabs from './landing-tabs'
+import TabsFeatures from './tabs-features'
 
 function Landing() {
   return (
