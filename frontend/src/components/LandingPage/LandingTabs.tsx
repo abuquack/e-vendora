@@ -1,7 +1,13 @@
 import { Store } from "lucide-react"
+import { ReactNode } from "react"
 
 function LandingTabs() {
-  const pages = [
+  type PageType = {
+    name: string;
+    icon: ReactNode;
+  };
+
+  const pages: PageType[] = [
     {
       name: 'المتاجر',
       icon: <Store strokeWidth={1} />
@@ -33,12 +39,12 @@ function LandingTabs() {
   ]
   return (
     // { TODO: Tabs for name & icons}
-    <div>
-      <ul className='flex flex-nowrap gap-4 border rounded-lg overflow-x-auto p-3 shadow-md'>
+    <div className="relative lg:-right-8 bg-white lg:min-w-[150px]">
+      <ul className='flex flex-nowrap gap-3 p-2 border rounded-lg overflow-x-auto shadow-md lg:grid lg:grid-cols-1'>
         {
           pages.map((page, id) => {
             return (
-              <li key={id} className={`${id == 0 && 'bg-hoverFont'} flex items-center gap-2 py-2 px-4 w-1/3 rounded-lg text-lg font-bold text-gray-700 hover:text-font`}>
+              <li key={id} className={`${id == 0 && 'bg-hoverFont'} flex items-center gap-1 cursor-pointer py-1 w-full px-2 rounded-lg text-lg font-normal text-gray-700 hover:text-black lg:w-full hover:bg-hoverFont`}>
                 {page.icon}
                 {page.name}
               </li>

@@ -1,10 +1,9 @@
 import { MoveLeft } from 'lucide-react'
-import React from 'react'
 
 function Hero() {
   return (
     <div>
-      <div className='mx-auto max-w-screen-lg px-4 lg:flex flex-col justify-start py-16 items-center lg:h-screen'>
+      <div className='mx-auto max-w-screen-lg px-4 lg:flex flex-col justify-start py-16 items-center'>
         <div className='flex flex-col items-center'>
           <p className='mb-2 text-xm lg:text-text-sm text-gray-500'>إبدأ تجارتك معنا</p>
           <h1 className="text-3xl font-bold sm:text-5xl">المنصة العرية الأمثل</h1>

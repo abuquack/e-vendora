@@ -1,7 +1,7 @@
 import { Menu } from 'lucide-react'
+import { useState } from 'react'
 import { Navigation } from './Navigation'
 import Subscribe from './Subscribe'
-import { useState } from 'react'
 import NavigationPhoneScreen from './NavigationPhoneScreen';
 
 function Header() {
@@ -20,7 +20,7 @@ function Header() {
             <Navigation />
           </nav>
           <nav className='absolute top-[66px] w-full lg:hidden'>
-            <NavigationPhoneScreen sideMenu={showSideMenu}/>
+            <NavigationPhoneScreen sideMenu={showSideMenu} />
           </nav>
         </div>
         <div className='h-[42px] max-h-[42px] bg-white hidden lg:flex'>

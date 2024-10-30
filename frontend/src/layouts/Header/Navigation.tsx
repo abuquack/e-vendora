@@ -20,7 +20,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { MoreHorizontal } from "lucide-react"
-import { Button } from "../ui/button"
+import { Button } from "@/components/ui/button"
 
 
 export function Navigation() {
