@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Navigation } from './navigation'
 import Subscribe from './subscribe'
 import NavigationPhoneScreen from './navigationPhoneScreen';
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [showSideMenu, setShowSideMenu] = useState<boolean>(false);
@@ -14,7 +15,7 @@ function Header() {
       <div className='py-3 flex items-center justify-between'>
         <div className='flex items-center gap-6'>
           <div id='logo' className='h-[42px] border-l rounded-lg max-h-[42px] flex items-center px-3 text-main cursor-pointer font-bold relative bg-white'>
-            <a href='/'>فندورا</a>
+            <Link to='/'>فندورا</Link>
           </div>
           <nav className='bg-white hidden lg:flex'>
             <Navigation />

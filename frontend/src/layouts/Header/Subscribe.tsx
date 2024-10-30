@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { ArrowLeft } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 function Subscribe() {
   return (
@@ -7,7 +8,7 @@ function Subscribe() {
       <Button
         className="bg-transparent w-[calc(50%-10px)] h-full lg:h-fit lg:w-fit text-gray-500 bg-hoverFont hover:bg-hoverFont lg:bg-transparent hover:text-gray-600 lg:hover:bg-transparent px-2 py-1 lg:p-1"
       >
-        <a href="/login" className='w-full h-full'>تسجيل الدخول</a>
+        <Link to="/login" className='w-full h-full'>تسجيل الدخول</Link>
       </Button>
       <Button
         variant="ghost"

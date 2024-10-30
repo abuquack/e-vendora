@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Subscribe from "./subscribe"
 
 type NavigationPhoneScreenProps = {
@@ -16,12 +17,12 @@ function NavigationPhoneScreen({ sideMenu }: NavigationPhoneScreenProps) {
 
         <ul className="mt-6 space-y-1">
           <li>
-            <a
-              href="#"
+            <Link
+              to="#"
               className="block rounded-lg bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700"
             >
               الصفحة الرئيسية
-            </a>
+            </Link>
           </li>
 
           <li>
@@ -30,19 +31,17 @@ function NavigationPhoneScreen({ sideMenu }: NavigationPhoneScreenProps) {
                 className="flex cursor-pointer items-center justify-center rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
               >
                 <span className="text-sm font-medium"> تواصل معنا </span>
-
               </summary>
-
             </details>
           </li>
 
           <li>
-            <a
-              href="#"
+            <Link
+              to="#"
               className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
             >
               تعرف علينا
-            </a>
+            </Link>
           </li>
 
           <li>
@@ -51,7 +50,6 @@ function NavigationPhoneScreen({ sideMenu }: NavigationPhoneScreenProps) {
                 className="flex cursor-pointer items-center justify-center rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
               >
                 <span className="text-sm font-medium"> الحلول </span>
-
                 <span className="shrink-0 transition duration-300 group-open:-rotate-180">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -70,21 +68,21 @@ function NavigationPhoneScreen({ sideMenu }: NavigationPhoneScreenProps) {
 
               <ul className="mt-2 space-y-1 px-4">
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
                   >
                     الحل الأول
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
                   >
                     الحل الثاني
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
