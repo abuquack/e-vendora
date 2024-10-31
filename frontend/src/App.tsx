@@ -1,9 +1,10 @@
 import { Route, Routes, useLocation } from 'react-router-dom'
 import './App.css'
-import HomeScreen from './pages/homeScreen'
+import HomeScreen from './pages/home-screen'
 import Header from './layouts/header/header'
-import LoginScreen from './pages/(logged-in)/loginScreen'
-import RegisterScreen from './pages/(logged-in)/registerScreen'
+import LoginScreen from './pages/(logged-in)/login-screen'
+import RegisterScreen from './pages/(logged-in)/register-screen'
+import NotFoundPage from './pages/not-found-screen'
 
 function App() {
   const location = useLocation();
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<HomeScreen />} />
           <Route path="/login" element={<LoginScreen />} />
           <Route path="/register" element={<RegisterScreen />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </div>
     </>
